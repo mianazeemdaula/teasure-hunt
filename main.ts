@@ -5,7 +5,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`
     info.changeScoreBy(1)
     effects.confetti.startScreenEffect(1000)
 })
-scene.onOverlapTile(SpriteKind.Player, sprites.castle.tileGrass1, function on_overlap_tile2(sprite: Sprite, location: tiles.Location) {
+scene.onOverlapTile(SpriteKind.Player, sprites.castle.tileGrass3, function on_overlap_tile2(sprite: Sprite, location: tiles.Location) {
     game.over(true, effects.confetti)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function on_overlap_tile3(sprite: Sprite, location: tiles.Location) {

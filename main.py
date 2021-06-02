@@ -11,7 +11,7 @@ scene.on_overlap_tile(SpriteKind.player,
 def on_overlap_tile2(sprite, location):
     game.over(True, effects.confetti)
 scene.on_overlap_tile(SpriteKind.player,
-    sprites.castle.tile_grass1,
+    sprites.castle.tile_grass3,
     on_overlap_tile2)
 
 def on_overlap_tile3(sprite, location):
